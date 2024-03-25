@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Unspoken",
+    "slug": "Unspoken",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/UnspokenLogo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/UnspokenLogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "relatedtoanysample.sampleapp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/UnspokenLogo.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/UnspokenLogo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e08a4ce8-9420-44a7-865f-6575165e0f81"
+      }
+    }
+  }
+}
